@@ -18,7 +18,7 @@ export function draw(gameBoard) {
   foodElement.classList.add('food')
   gameBoard.appendChild(foodElement)
 }
-
+// randoom postitie van de food
 function getRandomFoodPosition() {
   let newFoodPosition
   while (newFoodPosition == null || onSnake(newFoodPosition)) {
