@@ -1,3 +1,5 @@
+// "food" word randomn ergens geplaats
+//code css
 const GRID_SIZE = 21
 
 export function randomGridPosition() {

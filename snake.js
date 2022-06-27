@@ -1,10 +1,10 @@
-
+//code over de snake
 import { getInputDirection } from "./input.js"
-
+// hoe snel de slang gaat
 export const SNAKE_SPEED = 5
 const snakeBody = [{ x: 11, y: 11 }]
 let newSegments = 0
-
+// zorg dat de slang langer gaat als hij de "food" op eet
 export function update() {
   addSegments()
 
